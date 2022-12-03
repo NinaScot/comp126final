@@ -1,0 +1,302 @@
+/* Variables */
+
+:root {
+    /* Colors */
+    --red:#8E2535;
+    --light-red:#B26C76;
+
+    --green:#858958;
+    --light-green:#B5B393;
+
+    --yellow:#F7A940;
+    --light-yellow:#FACE93;
+
+    --blue:#1E1050;
+
+    --beige:#FAF2EA;
+
+    /* Font Weights */
+    --h1-h2-button-weight: 700;
+    --h3-nav-weight: 600;
+    --p-caption-weight: 400;
+
+    /* Text Letter Spacing */
+    --h1-h2-letter-spacing: 1px;
+    --nav-button-letter-spacing: 2px;
+
+    /* Text Transform */
+    --nav-h1-button-text-transform: uppercase;
+}
+
+/* Fonts */
+.redtext {
+    color:var(--red);
+}
+
+.beigetext {
+    color:var(--beige);
+}
+
+p.bluetext {
+    color:var(--blue);
+}
+
+.yellowtext {
+    color:var(--yellow);
+}
+
+.greentext {
+    color:var(--green);
+}
+
+.navtext {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: var(--h3-nav-weight);
+    letter-spacing: var(--nav-button-letter-spacing);
+    text-transform: var(--nav-h1-button-text-transform);
+}
+
+h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: var(--h1-h2-button-weight);
+    letter-spacing: var(--h1-h2-letter-spacing);
+    text-transform: var(--nav-h1-button-text-transform);
+}
+
+h2 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: var(--h1-h2-button-weight);
+    letter-spacing: var(--h1-h2-letter-spacing);
+}
+
+h6 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: var(--h3-nav-weight);
+}
+
+p {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: var(--p-caption-weight);
+}
+
+.caption {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: var(--p-caption-weight);
+}
+
+li { 
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: var(--p-caption-weight);
+}
+/* Navigation */
+.navbar-nav {
+    margin-left: auto;
+}
+
+.navbg {
+    background-color: var(--beige);
+}
+
+.navtext:hover {
+    color: var(--blue);
+}
+
+/*Footer*/
+footer {
+    background-color: var(--beige);
+    padding: 3rem;
+    max-height: 300px;
+}
+
+.footer_logo {
+    min-height: 60px;
+}
+
+/* Buttons */
+button {
+    border-radius: 90px;
+    text-decoration: none;   
+}
+.buttontext {
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    font-weight: var(--h1-h2-button-weight);
+    letter-spacing: var(--nav-button-letter-spacing);
+    text-transform: var(--nav-h1-button-text-transform);
+}
+
+.social_media_btn {
+    border-style: none;
+    background-color: var(--beige);
+}
+
+.social_media_btn:hover {
+    transform: scale(1.5);
+}
+
+.social_media_btn:focus {
+    transform: scale(1.5);
+}
+
+button#shop_now {
+    align-self: center;
+    background-color: var(--green);
+    width: 75%;
+    border-style: none;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+
+#leaf-sharp {
+    margin-right: 10px; 
+}
+
+#leaf-sharp2 {
+    margin-right: 10px; 
+}
+
+#shop_now:hover {
+    background-color:var(--blue);
+}
+
+#shop_now:focus {
+    background-color:var(--blue);
+}
+
+.jcbutton {
+    padding: 1rem;
+}
+    /* Content Sections */
+.custom_plush {
+    background-color: var(--green);
+}
+
+.custom_clothes {
+    background-color: var(--green);
+}
+
+.content {
+    padding: 2rem;
+}
+
+.welcomecontent {
+    background-image: linear-gradient(var(--light-yellow),var(--yellow));
+}
+.about {
+    background-image: linear-gradient(var(--light-yellow),var(--yellow));
+}
+img.wpic.rounded {
+    width: 100%;
+    height: 20vh;
+    object-fit: cover;
+}
+
+.FAQ {
+    background-color: var(--blue);
+}
+p.bold {
+    font-weight: var(--h3-nav-weight);
+}
+
+.card {
+    background-color: var(--beige);
+    border-style: none;
+    padding: .6rem;
+    min-width: 100;
+}
+
+.jemcard img {
+    border-style: solid;
+    border-width: medium;
+    border-color: var(--blue);
+}
+
+.plush_pic {
+    border-style: solid;
+    border-width: medium;
+    border-color: var(--red);
+}
+
+.gallery {
+    background-color: var(--green);
+}
+.card-text {
+    margin-top: 10px;
+}
+.clothes_card {
+    padding: 0;
+}
+.shoppingtext {
+    padding-top: 1rem;
+}
+
+button#quote {
+    align-self: center;
+    background-color: var(--red);
+    width: 75%;
+    border-style: none;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+
+#quote:hover {
+    background-color:var(--blue);
+}
+#quote:focus {
+    background-color:var(--blue);
+}
+
+button#quote2 {
+    align-self: center;
+    background-color: var(--yellow);
+    width: 75%;
+    border-style: none;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+#quote2:hover {
+    background-color:var(--blue);
+}
+
+.skill1 {
+    padding-top: 2rem;
+}
+
+#quote2:focus {
+    background-color:var(--blue);
+}
+
+/* Media Queries */
+
+    /* Medium Screens and Up */
+    @media screen and (min-width: 768px) {
+        .content {
+            padding: 5rem;
+    }    
+}
+
+    /* Large Screens Only */
+    @media screen and (min-width: 960px) {
+    img.wpic.rounded {
+        height: 30vh;
+    }
+    .skill1 {
+        padding-top: 10rem;}
+        
+    .content {
+        padding-right: 10rem;
+        padding-left: 10rem;
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+        }
+
+        .shoppingtext {
+            padding-top: auto;
+        }
+    }
